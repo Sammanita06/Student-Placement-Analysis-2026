@@ -6,6 +6,12 @@
 
      This project explores a dataset of 100,000 student records to determine the predictability of placement outcomes and salary packages. Using a mix of  academic,extracurricular, and demographic features, I implemented a full Machine Learning pipeline from raw data cleaning to comparative model analysis.
 
+##  Dataset
+The data used in this project was sourced from Kaggle. 
+
+* **Source:** [Placement Dataset - Kaggle](https://www.kaggle.com/datasets/sehaj1104/student-placement-prediction-dataset-2026)
+* **Description:** "This dataset consists of 26 features detailing student academic performance and skill sets, serving as the foundation for the placement prediction model."
+
 
 ## Key Objective: To establish a performance baseline for placement classification and identify whether academic metrics provide a strong enough signal for salary regression.
 
@@ -56,5 +62,4 @@
     ### Predictive Limits: An accuracy of ~57% indicates that placement in this context is governed by variables not present in the dataset (e.g., soft skills, real-time interview performance, or specific company requirements).
     
     ### Model Integrity: I chose not to deploy a predictive interface (Streamlit) for active use, as the current model does not meet the reliability threshold (70%+) required for a professional student-facing tool.
-
     
